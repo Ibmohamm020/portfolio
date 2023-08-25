@@ -1,0 +1,102 @@
+<DOCTYPE html>
+<html lang="en">
+<title>my portfolio page2.html</title>
+<style>
+header{
+    padding: 5%;
+    border: 20%;
+    text-align: center;
+    font: times new roman;
+    background-color: blue;
+    font-size: large;
+
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+
+}  
+ body{
+    background-color: black;
+}
+h2{
+    font:gold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color:azure}
+aside {
+    width: 300px;
+    height: auto;
+    background-color: black;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    float: right;
+    margin-top: 50px;
+} 
+header{
+        padding: 5%;
+        border: 20%;
+        text-align: center;
+        font: times new roman;
+        background-color: blue;
+        font-size: large;
+
+    }
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: azure;
+    }
+    aside, ul{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        background-color: beige;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    li{
+        margin-bottom: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: aqua;
+    }
+</style>
+<header> my projects</header>
+<body>
+<main>
+<p> as a beginner, i have just started my debut to being a coder and only built a few projects. some of them are as follows;</p>
+</main>
+</body>
+
+<aside>
+    <aside>
+        <h2> main pages</h2>
+       <link rel="stylesheet" type="text/css" href="styles.css">
+       <nav>
+        <ul>
+            <li><a href="index.html.html">home</a></li>
+            <li><a href="my portfolio page2.html">projects</a></li>
+            <li><a href="my portfolio page3.html">about</a></li>
+            <li><a href="my portfolio page4.html">contact</a></li>
+        </ul>
+       </nav>
+    </aside>
+<script>
+    function navigateToPage(){
+        var selectedOption = document.getElementById("dropdown").value;
+        if(selectedOption !==""){
+            window.location.href = selectedOption;
+        }
+    
+     }
+</script>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>my portfolio page1.html</title>
+<style>
+    header{
+        padding: 5%;
+        border: 20%;
+        text-align: center;
+        font: times new roman;
+        background-color: blue;
+        font-size: large;
+        height: 100px;
+
+    }
+    main{
+        margin-top: 20px;
+    }
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: azure;
+
+    }
+    h2{
+        font:gold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         color:azure}
+    aside {
+        width: 300px;
+        height: auto;
+        background-color: black;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: blue;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        position:absolute;
+        margin-top: 50px;
+        float: right;
+    }
+    aside, ul{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        background-color: beige;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    li{
+        margin-bottom: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: aqua;
+    }
+    body{
+          background-color: black;
+    }
+          </style>
+    <header>
+        <h1> home page</h1>
+    </header>
+<body>
+<main>
+    <h2> name:</h2>
+    <p>Mohammed ibrahim</p>
+    <h2>age:</h2>
+    <p>21 years</p>
+    <article>
+           <p>I was born in Tamale, the northern region of Ghana on the 14th of May 2002. My mom's name is Zakira and my dad's name is Mohammed<br>
+        I lived in Moshie zongo as a child and attended school there.<br></p>
+        <p>As a child, i attended bright future until kg. At kg i went to sakasaka presby where i studided until primary 3.<br>
+            At primary 3, i went to rice city and dtayed there until jhs1. from thee i went to fatih college<br>
+            i stayed at fatih college until shs3 meaning i attended both jhs and shs at fatih college.<br>
+            After fatih college i went to uds nyankpala campus
+        </p>
+    </article>
+</main>
+    
+    <aside>
+        <h2> main pages</h2>
+       <link rel="stylesheet" type="text/css" href="styles.css">
+       <nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="my portfolio page2.html">projects</a></li>
+            <li><a href="my portfolio page3.html">about</a></li>
+            <li><a href="my portfolio page4.html">contact</a></li>
+        </ul>
+       </nav>
+    </aside>
+    <script>
+         function navigateToPage(){
+            var selectedOption = document.getElementById("menu").value;
+            if(selectedOption !==""){
+                window.location.href = selectedOption;
+            }
+        
+         }
+    </script>

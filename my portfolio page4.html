@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>contact page</title>
+</head>
+<style>
+     header{
+        padding: 5%;
+        border: 20%;
+        text-align: center;
+        font: times new roman;
+        background-color: blue;
+        font-size: large;
+        height: 100px;
+
+    }
+    main{
+        margin-top: 20px;
+    }
+    p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: azure;
+
+    }
+    h2{
+        font:gold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         color:azure}
+    aside {
+        width:300px;
+        height: auto;
+        background-color: black;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        color: blue;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        position:relative;
+        margin-top: 50px;
+        float: right;
+    }
+    aside, ul{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        background-color: beige;
+    }
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+    li{
+        margin-bottom: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: aqua;
+    }
+    body{
+          background-color: black;
+    }
+</style>
+<header>contact page</header>
+<body>
+    <h2> the following are my contacts</h2>
+    <p> telephone number: 0594717832</p><br>
+    <p>gmail account: ibmohammed020@gmail.com</p>
+    <p>git hub: ibmohamm020</p>
+    <p>location: hausan zongo</p>
+</body>
+<aside>
+    <h2> main pages</h2>
+   <link rel="stylesheet" type="text/css" href="styles.css">
+   <nav>
+    <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="my portfolio page2.html">projects</a></li>
+        <li><a href="my portfolio page3.html">about</a></li>
+        <li><a href="my portfolio page4.html">contact</a></li>
+    </ul>
+   </nav>
+</aside>
+<script>
+    function navigateToPage(){
+        var selectedOption = document.getElementById("menu").value;
+        if(selectedOption !==""){
+            window.location.href = selectedOption;
+        }
+    
+     }
+</script>
+</html>
